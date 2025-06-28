@@ -40,7 +40,7 @@ You need to configure the `.env` file for MongoDB connection:
 $ touch .env
 
 # Add your MongoDB connection string and other required variables
-DB_URI=mongodb://localhost:27017/your_database
+DATABASE_URL=mongodb://localhost:27017/your_database
 PORT=3001
 ```
 
