@@ -31,6 +31,21 @@
 $ npm install
 ```
 
+### Environment Configuration
+
+You need to configure the `.env` file for MongoDB connection:
+
+```bash
+# Create a .env file in the root directory
+$ touch .env
+
+# Add your MongoDB connection string and other required variables
+DB_URI=mongodb://localhost:27017/your_database
+PORT=3001
+```
+
+Make sure to replace the MongoDB connection string with your actual database URI.
+
 ## Compile and run the project
 
 ```bash
